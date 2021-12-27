@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         double PriceTicket = 100.56;
-        int OneMile = 20;
+        int OneMile = 20; // для изменения стоимости мили
 
         if (PriceTicket > 0 & PriceTicket < 1000000) {
             int bonus = (int) (PriceTicket / OneMile) ;
