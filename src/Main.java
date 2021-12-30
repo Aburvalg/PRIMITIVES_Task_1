@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
 
-        double PriceTicket = 100.56;
-        int OneMile = 20;
+        double priceTicket = 100.56;
+        int oneMile = 20;
 
-        if (PriceTicket > 0 & PriceTicket < 1000000) {
-            int bonus = (int) (PriceTicket / OneMile) ;
+        if (priceTicket > 0 & priceTicket < 1000000) {
+            int bonus = (int) (priceTicket / oneMile);
             System.out.println("Ваши мили составляют: " + bonus);
         } else {
             System.out.println("Неверная стоимость билета");
         }
-        }
     }
+}
